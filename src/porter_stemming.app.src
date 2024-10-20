@@ -1,6 +1,6 @@
 {application, porter_stemming,
  [{description, "Porter Stemming Algorithm Implementation in Erlang  "},
-  {vsn, "1.0.0"},
+  {vsn, "1.0.1"},
   {registered, []},
   {applications,
    [kernel,

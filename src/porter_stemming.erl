@@ -47,7 +47,7 @@
 -export([stem/1]).
 
 stem(Word) when is_binary(Word) ->
-    unicode:characters_to_list(stem(unicode:characters_to_list(Word)));
+    unicode:characters_to_binary(stem(unicode:characters_to_list(Word)));
 stem(Word) when is_list(Word) ->
     stem_word(Word).
 
