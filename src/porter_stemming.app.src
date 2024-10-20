@@ -1,0 +1,14 @@
+{application, porter_stemming,
+ [{description, "Porter Stemming Algorithm Implementation in Erlang  "},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["CC0-1.0"]},
+  {links, []}
+ ]}.
